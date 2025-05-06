@@ -2,9 +2,6 @@
 
 **Tired of digging through menus?** Transform any key into instant shortcuts for apps, files, folders, and websites!  
 
-![Demo GIF](https://via.placeholder.com/800x400?text=Press+F12+→+Hit+'A'+to+launch+app)  
-*(Запишите 10-секундный гиф через [ScreenToGif](https://www.screentogif.com/))*
-
 ## ✨ Features
 - **Blazing fast** — Launch anything in <100ms
 - **Zero config** — Simple JSON setup
