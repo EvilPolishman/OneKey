@@ -43,12 +43,6 @@ Edit `Service/Variables.json`:
 - Python 3.10+
 - [keyboard](https://pypi.org/project/keyboard/) module
 
-## 🛠 Build from Source
-```bash
-pip install pyinstaller keyboard
-pyinstaller --onefile --hidden-import=keyboard OneKeySystem.py
-```
-
 ## 🌟 Support
 - ⭐ **Star this repo** if you find it useful!
 - 🐞 Found a bug? [Open an issue](https://github.com/EvilPolishman/OneKey/issues)
