@@ -1,0 +1,50 @@
+VKS (Virtual Key Shortcuts) - Quick Start Guide
+1. Basic Setup
+The program automatically creates a Service folder where it stores:
+
+Variables.json – Your key bindings (hotkeys).
+
+vks.log – Event logs (for debugging).
+
+NowToUse.txt – This guide.
+
+2. Default Keybindings
+Key	Action
+F12	Enable VKS (required for other functions).
+F9	Add a new key shortcut (e.g., bind a to C:\file.txt).
+F10	List all saved shortcuts.
+F11	Reset all settings (clears Variables.json).
+3. How to Add Shortcuts
+Press F12 to activate VKS.
+
+Press F9, then:
+
+Enter a single key (e.g., k).
+
+Enter a path (e.g., D:\music.mp3) or URL (e.g., https://google.com).
+
+Press the bound key (e.g., k) to trigger the action.
+
+4. Supported Actions
+✔ Open local files (e.g., C:\Program Files\app.exe).
+✔ Open folders (e.g., D:\Documents).
+✔ Open websites (e.g., https://github.com).
+
+5. Example Variables.json
+json
+{
+  "a": "C:\\Windows\\notepad.exe",
+  "b": "https://youtube.com",
+  "c": "D:\\Projects\\"
+}
+6. Troubleshooting
+If a shortcut doesn’t work:
+
+Check the path/URL in Variables.json.
+
+Ensure the target file/app exists.
+
+Logs are saved in vks.log.
+
+Notes
+VKS runs in the background. Close the console window to exit.
